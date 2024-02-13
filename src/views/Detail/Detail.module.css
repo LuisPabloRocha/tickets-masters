@@ -1,0 +1,45 @@
+.container{
+
+
+}
+.mainInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.image{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+.eventName{
+    margin: 12px 0px;
+    font-size: 30px;
+}
+.eventInfo{
+    text-align: left;
+    margin: 4px 0;
+    font-size: 20px;
+
+}
+.eventDate{
+    margin: 4px 0;
+}
+.seatInfoContainer{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.seatMapTitle{
+    margin:6px 0;
+    font-size: 16px;
+}
+.pleaseNoteLegend{
+    margin: 10px 0;
+    text-align: left;
+
+}
+.priceRangesText{
+    margin: 0;
+}

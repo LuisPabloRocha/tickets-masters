@@ -1,0 +1,38 @@
+.event-item-container{
+    display: flex;
+    margin: 24px 0px;
+    align-items: start;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 14px;
+}
+.event-name{
+    margin: 0;
+    font-size: 22px;
+}
+.event-info{
+    text-align: left;
+    margin: 0;
+    overflow: hidden;
+    text-overflow:ellipsis ;
+    display: -webkit-box;
+    -webkit-line-clamp: 5 ;
+    -webkit-box-orient: vertical;
+}
+.see-More-Button{
+    margin-top: 10px;
+}
+.imageContainer{
+    position: relative;
+}
+.heartImage{
+    position: absolute;
+    width: 28px;
+    top:20px;
+    left: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
